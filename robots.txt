@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://ti-84-calculator-online.github.io/sitemap.xml
