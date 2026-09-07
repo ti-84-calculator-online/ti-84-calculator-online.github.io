@@ -3,20 +3,20 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>TI-84 Style Calculator Online - Free Scientific Calculator</title>
-<meta name="description" content="Free TI-84 style scientific calculator online. Trig, logs, powers, roots and constants, right in your browser. No download, no sign-up, works on mobile.">
+<title>TI-84 Style Calculator Online - Free Scientific & Graphing Calculator</title>
+<meta name="description" content="Free TI-84 style calculator online with scientific functions AND graphing. Trig, logs, powers, roots, 2nd functions, ANS/STO memory, and a full function plotter with zoom.">
 <meta name="robots" content="index, follow">
 <link rel="canonical" href="https://ti-84-calculator-online.github.io/">
-<meta property="og:title" content="TI-84 Style Calculator Online - Free Scientific Calculator">
-<meta property="og:description" content="A free browser-based scientific calculator with a TI-84 style keypad. Trig, logs, powers, roots, memory and more.">
+<meta property="og:title" content="TI-84 Style Calculator Online - Free Scientific & Graphing Calculator">
+<meta property="og:description" content="A free browser-based scientific AND graphing calculator with a TI-84 style keypad. Trig, logs, powers, roots, memory, and function plotting with zoom.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://ti-84-calculator-online.github.io/">
 <meta property="og:image" content="https://ti-84-calculator-online.github.io/og-image.png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="TI-84 Style Calculator Online - Free Scientific Calculator">
-<meta name="twitter:description" content="A free browser-based scientific calculator with a TI-84 style keypad. Trig, logs, powers, roots, memory and more.">
+<meta name="twitter:title" content="TI-84 Style Calculator Online - Free Scientific & Graphing Calculator">
+<meta name="twitter:description" content="A free browser-based scientific AND graphing calculator with a TI-84 style keypad, plus function plotting with zoom.">
 <meta name="twitter:image" content="https://ti-84-calculator-online.github.io/og-image.png">
 <link rel="icon" type="image/svg+xml" href="favicon.svg">
 <link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png">
@@ -30,11 +30,11 @@
   "@type": "FAQPage",
   "mainEntity": [
     {"@type":"Question","name":"Is this TI-84 style calculator free?","acceptedAnswer":{"@type":"Answer","text":"Yes, it's completely free to use in your browser, with no download, install or sign-up required."}},
-    {"@type":"Question","name":"Does it work on mobile?","acceptedAnswer":{"@type":"Answer","text":"Yes, the keypad and screen resize automatically for phones and tablets, so it works the same on mobile browsers as it does on desktop."}},
-    {"@type":"Question","name":"What functions does the calculator support?","acceptedAnswer":{"@type":"Answer","text":"It supports standard arithmetic, parentheses, powers and roots, sin, cos and tan, log and ln, the constants pi and e, a degree/radian toggle, and a memory store, recall and clear."}},
-    {"@type":"Question","name":"Is this an official Texas Instruments product?","acceptedAnswer":{"@type":"Answer","text":"No. This is an independent, fan-made scientific calculator with a TI-84 style layout for familiarity. It is not affiliated with, endorsed by, or a product of Texas Instruments."}},
-    {"@type":"Question","name":"Can I use this for exams?","acceptedAnswer":{"@type":"Answer","text":"Check with your instructor or test administrator first. Many exams require a physical calculator, and an online tool like this is best suited for homework, practice and everyday calculations."}},
-    {"@type":"Question","name":"Does it save my calculation history?","acceptedAnswer":{"@type":"Answer","text":"The calculator keeps a short history of your recent calculations in the current browser tab. Closing or refreshing the page clears it, since nothing is stored on a server."}}
+    {"@type":"Question","name":"Does it graph functions?","acceptedAnswer":{"@type":"Answer","text":"Yes. Switch to the Graph tab, type an expression in terms of x, and it plots instantly with adjustable window bounds, zoom in, zoom out, and a standard zoom reset."}},
+    {"@type":"Question","name":"What functions does the calculator support?","acceptedAnswer":{"@type":"Answer","text":"Standard arithmetic, parentheses, powers, roots, sin/cos/tan and their inverses, log and ln with their 2nd-function inverses, EE scientific notation, ANS and STO memory, percent, and function graphing with zoom."}},
+    {"@type":"Question","name":"How does the 2nd key work?","acceptedAnswer":{"@type":"Answer","text":"Pressing 2nd swaps several keys to their alternate function, just like a physical graphing calculator: sin becomes sin inverse, log becomes 10 to the power of x, and so on. Press 2nd again to switch back."}},
+    {"@type":"Question","name":"Is this an official Texas Instruments product?","acceptedAnswer":{"@type":"Answer","text":"No. This is an independent, fan-made calculator with a TI-84 style layout for familiarity. It is not affiliated with, endorsed by, or a product of Texas Instruments."}},
+    {"@type":"Question","name":"Can I use this for exams?","acceptedAnswer":{"@type":"Answer","text":"Check with your instructor or test administrator first. Many exams require a physical calculator, and an online tool like this is best suited for homework, practice and everyday calculations."}}
   ]
 }
 </script>
@@ -46,28 +46,16 @@
   "applicationCategory": "UtilitiesApplication",
   "operatingSystem": "Any",
   "url": "https://ti-84-calculator-online.github.io/",
-  "description": "Free browser-based scientific calculator with a TI-84 style keypad, supporting trig, logs, powers, roots and memory functions.",
+  "description": "Free browser-based scientific and graphing calculator with a TI-84 style keypad, supporting trig, logs, powers, roots, memory, and function plotting with zoom.",
   "offers": {"@type":"Offer","price":"0","priceCurrency":"USD"}
 }
 </script>
 <style>
   :root{
-    --page:#eef0ea;
-    --ink:#1c1f1a;
-    --muted:#5c6357;
-    --line:#d6d8ce;
-    --panel:#232823;
-    --panel-2:#2c332c;
-    --screen:#c6d6a8;
-    --screen-ink:#1d2917;
-    --key-dark:#3a423a;
-    --key-blue:#3d6b93;
-    --key-orange:#c67a3a;
-    --key-light:#e7e9e1;
-    --accent:#3d6b93;
-    --accent-2:#c67a3a;
-    --radius:6px;
-    --max:1120px;
+    --page:#eef0ea; --ink:#1c1f1a; --muted:#5c6357; --line:#d6d8ce;
+    --panel:#232823; --panel-2:#2c332c; --screen:#c6d6a8; --screen-ink:#1d2917;
+    --key-dark:#3a423a; --key-blue:#3d6b93; --key-orange:#c67a3a; --key-light:#e7e9e1;
+    --key-2nd:#c67a3a; --accent:#3d6b93; --accent-2:#c67a3a; --radius:6px; --max:1120px;
   }
   *{box-sizing:border-box;}
   html{scroll-behavior:smooth;}
@@ -98,38 +86,51 @@
   .hero-stats strong{display:block;font-family:'Sora',sans-serif;font-size:1.25rem;color:var(--ink);}
   .hero-stats span{font-size:.82rem;color:var(--muted);}
 
-  /* ---------- Calculator ---------- */
   .calc-wrap{padding:12px 0 56px;}
-  .calc-device{
-    max-width:420px;margin:0 auto;background:var(--panel);border-radius:22px;padding:22px;
-    box-shadow:0 30px 60px -30px rgba(0,0,0,.4);
-  }
-  .calc-brandbar{display:flex;justify-content:space-between;align-items:center;padding:0 4px 14px;color:#aab3a4;font-size:.72rem;font-weight:600;letter-spacing:.04em;}
-  .screen{
-    background:var(--screen);color:var(--screen-ink);border-radius:8px;padding:16px;margin-bottom:16px;
-    font-family:'IBM Plex Mono',monospace;
-  }
-  .screen-history{font-size:.78rem;min-height:1.2em;opacity:.75;overflow-x:auto;white-space:nowrap;}
-  .screen-expr{font-size:1rem;min-height:1.3em;overflow-x:auto;white-space:nowrap;margin:4px 0;}
-  .screen-result{font-size:1.9rem;font-weight:600;text-align:right;overflow-x:auto;white-space:nowrap;}
-  .mode-row{display:flex;justify-content:space-between;margin-bottom:14px;gap:8px;}
-  .mode-btn{
-    flex:1;background:var(--key-dark);color:#e7e9e1;border:none;border-radius:6px;padding:9px 6px;
-    font-family:'Work Sans',sans-serif;font-size:.75rem;font-weight:600;cursor:pointer;
-  }
+  .calc-device{max-width:460px;margin:0 auto;background:var(--panel);border-radius:22px;padding:22px;box-shadow:0 30px 60px -30px rgba(0,0,0,.4);}
+  .calc-brandbar{display:flex;justify-content:space-between;align-items:center;padding:0 4px 12px;color:#aab3a4;font-size:.72rem;font-weight:600;letter-spacing:.04em;}
+  .tabs{display:flex;gap:8px;margin-bottom:12px;}
+  .tab-btn{flex:1;background:var(--key-dark);color:#e7e9e1;border:none;border-radius:6px;padding:10px 6px;font-family:'Sora',sans-serif;font-size:.82rem;font-weight:700;cursor:pointer;}
+  .tab-btn.active{background:var(--key-blue);color:#fff;}
+
+  .screen{background:var(--screen);color:var(--screen-ink);border-radius:8px;padding:16px;margin-bottom:14px;font-family:'IBM Plex Mono',monospace;}
+  .screen-history{font-size:.76rem;min-height:1.2em;opacity:.75;overflow-x:auto;white-space:nowrap;}
+  .screen-expr{font-size:.98rem;min-height:1.3em;overflow-x:auto;white-space:nowrap;margin:4px 0;}
+  .screen-result{font-size:1.8rem;font-weight:600;text-align:right;overflow-x:auto;white-space:nowrap;}
+
+  .mode-row{display:flex;justify-content:space-between;margin-bottom:12px;gap:6px;flex-wrap:wrap;}
+  .mode-btn{flex:1;min-width:52px;background:var(--key-dark);color:#e7e9e1;border:none;border-radius:6px;padding:8px 4px;font-family:'Work Sans',sans-serif;font-size:.72rem;font-weight:600;cursor:pointer;}
   .mode-btn.active{background:var(--key-blue);color:#fff;}
-  .keypad{display:grid;grid-template-columns:repeat(5,1fr);gap:8px;}
-  .key{
-    border:none;border-radius:8px;padding:13px 0;font-family:'Work Sans',sans-serif;font-weight:600;font-size:.88rem;
-    cursor:pointer;color:#fff;background:var(--key-dark);transition:transform .05s ease;
-  }
+  .mode-btn.second-active{background:var(--key-2nd);color:#fff;}
+
+  .keypad{display:grid;grid-template-columns:repeat(5,1fr);gap:7px;}
+  .key{border:none;border-radius:8px;padding:12px 0;font-family:'Work Sans',sans-serif;font-weight:600;font-size:.82rem;cursor:pointer;color:#fff;background:var(--key-dark);transition:transform .05s ease;}
   .key:active{transform:scale(.94);}
-  .key.fn{background:#4a544a;font-size:.78rem;}
+  .key.fn{background:#4a544a;font-size:.74rem;}
   .key.op{background:var(--key-blue);}
   .key.eq{background:var(--key-orange);grid-column:span 2;}
-  .key.wide{grid-column:span 2;}
   .key.light{background:var(--key-light);color:var(--ink);}
   .key.danger{background:#7a3a34;}
+  .key .sub{display:block;font-size:.62rem;color:var(--key-2nd);font-weight:700;margin-bottom:1px;}
+  .key.light .sub, .key.op .sub{color:#c67a3a;}
+
+  .graph-panel{display:none;}
+  .graph-panel.active{display:block;}
+  .calc-panel.active{display:block;}
+  .calc-panel{display:none;}
+  .graph-controls{display:grid;grid-template-columns:1fr;gap:8px;margin-bottom:10px;}
+  .graph-controls input[type=text]{
+    background:var(--screen);color:var(--screen-ink);border:none;border-radius:6px;padding:10px 12px;
+    font-family:'IBM Plex Mono',monospace;font-size:.92rem;width:100%;
+  }
+  .window-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:6px;}
+  .window-grid label{font-size:.62rem;color:#aab3a4;display:block;margin-bottom:2px;}
+  .window-grid input{width:100%;padding:6px;border-radius:5px;border:none;font-family:'IBM Plex Mono',monospace;font-size:.78rem;background:#3a423a;color:#fff;}
+  canvas#graphCanvas{width:100%;height:260px;background:var(--screen);border-radius:8px;display:block;touch-action:none;}
+  .graph-actions{display:flex;gap:6px;margin-top:10px;}
+  .graph-actions button{flex:1;background:var(--key-dark);color:#fff;border:none;border-radius:6px;padding:9px 4px;font-size:.75rem;font-weight:600;cursor:pointer;}
+  .graph-actions button:hover{background:var(--key-blue);}
+  .trace-readout{margin-top:8px;font-family:'IBM Plex Mono',monospace;font-size:.8rem;color:#e7e9e1;min-height:1.2em;}
 
   .about{padding:56px 0 8px;}
   .section-head{max-width:72ch;margin-bottom:32px;}
@@ -172,20 +173,14 @@
   .footer-bottom{border-top:1px solid rgba(255,255,255,.12);padding-top:18px;font-size:.8rem;color:#7c8577;}
   @media(max-width:700px){.footer-grid{grid-template-columns:1fr;}}
   @media(max-width:900px){.nav-links{display:none;}}
-  @media(max-width:420px){
-    .key{font-size:.8rem;padding:12px 0;}
-    .calc-device{padding:16px;}
-  }
+  @media(max-width:420px){.key{font-size:.74rem;padding:11px 0;} .calc-device{padding:14px;}}
 </style>
 </head>
 <body>
 
 <header class="site">
   <nav class="nav">
-    <a href="#top" class="brand">
-      <span class="dot"><span></span></span>
-      TI-84 Style Calculator
-    </a>
+    <a href="#top" class="brand"><span class="dot"><span></span></span>TI-84 Style Calculator</a>
     <ul class="nav-links">
       <li><a href="#calculator">Calculator</a></li>
       <li><a href="#how-it-works">How it works</a></li>
@@ -201,11 +196,11 @@
   <section class="hero">
     <div class="wrap hero-grid">
       <div class="kicker">Free &middot; Browser-based &middot; No sign-up</div>
-      <h1>A TI-84 style scientific calculator, right in your browser</h1>
-      <p class="lead">Trig, logs, powers, roots, memory and more — laid out like the graphing calculator you already know, with nothing to download or install.</p>
+      <h1>A full scientific and graphing calculator, right in your browser</h1>
+      <p class="lead">Trig, logs, powers, roots, 2nd-function keys, ANS/STO memory, and a real function plotter with zoom — laid out like the graphing calculator you already know.</p>
       <div class="hero-stats">
-        <div><strong>18+</strong><span>functions</span></div>
-        <div><strong>DEG / RAD</strong><span>angle modes</span></div>
+        <div><strong>30+</strong><span>functions</span></div>
+        <div><strong>Graphing</strong><span>with zoom & trace</span></div>
         <div><strong>Free</strong><span>no account needed</span></div>
       </div>
     </div>
@@ -214,55 +209,89 @@
   <section class="calc-wrap" id="calculator">
     <div class="wrap">
       <div class="calc-device">
-        <div class="calc-brandbar"><span>SCI-CALC</span><span id="angle-label">DEG</span></div>
-        <div class="screen">
-          <div class="screen-history" id="screen-history">&nbsp;</div>
-          <div class="screen-expr" id="screen-expr">&nbsp;</div>
-          <div class="screen-result" id="screen-result">0</div>
+        <div class="calc-brandbar"><span>SCI-GRAPH-CALC</span><span id="angle-label">DEG</span></div>
+
+        <div class="tabs">
+          <button class="tab-btn active" id="tab-calc" type="button">Calculator</button>
+          <button class="tab-btn" id="tab-graph" type="button">Graph</button>
         </div>
-        <div class="mode-row">
-          <button class="mode-btn active" id="deg-btn" type="button">DEG</button>
-          <button class="mode-btn" id="rad-btn" type="button">RAD</button>
-          <button class="mode-btn" id="mc-btn" type="button">MC</button>
-          <button class="mode-btn" id="mplus-btn" type="button">M+</button>
-          <button class="mode-btn" id="mr-btn" type="button">MR</button>
+
+        <!-- CALCULATOR PANEL -->
+        <div class="calc-panel active" id="calc-panel">
+          <div class="screen">
+            <div class="screen-history" id="screen-history">&nbsp;</div>
+            <div class="screen-expr" id="screen-expr">&nbsp;</div>
+            <div class="screen-result" id="screen-result">0</div>
+          </div>
+          <div class="mode-row">
+            <button class="mode-btn active" id="deg-btn" type="button">DEG</button>
+            <button class="mode-btn" id="rad-btn" type="button">RAD</button>
+            <button class="mode-btn" id="second-btn" type="button">2nd</button>
+          </div>
+          <div class="keypad" id="keypad">
+            <button class="key fn" data-primary="sin(" data-second="asin(" id="k-sin">sin</button>
+            <button class="key fn" data-primary="cos(" data-second="acos(" id="k-cos">cos</button>
+            <button class="key fn" data-primary="tan(" data-second="atan(" id="k-tan">tan</button>
+            <button class="key fn" data-primary="log(" data-second="10^" id="k-log">log</button>
+            <button class="key fn" data-primary="ln(" data-second="e^" id="k-ln">ln</button>
+
+            <button class="key fn" data-val="(">(</button>
+            <button class="key fn" data-val=")">)</button>
+            <button class="key fn" data-primary="^2" data-second="sqrt(" id="k-sq">x&sup2;</button>
+            <button class="key fn" data-val="^">x^y</button>
+            <button class="key danger" data-action="del">DEL</button>
+
+            <button class="key light" data-val="7">7</button>
+            <button class="key light" data-val="8">8</button>
+            <button class="key light" data-val="9">9</button>
+            <button class="key op" data-val="/">&divide;</button>
+            <button class="key fn" data-val="pi">&pi;</button>
+
+            <button class="key light" data-val="4">4</button>
+            <button class="key light" data-val="5">5</button>
+            <button class="key light" data-val="6">6</button>
+            <button class="key op" data-val="*">&times;</button>
+            <button class="key fn" data-val="e">e</button>
+
+            <button class="key light" data-val="1">1</button>
+            <button class="key light" data-val="2">2</button>
+            <button class="key light" data-val="3">3</button>
+            <button class="key op" data-val="-">&minus;</button>
+            <button class="key fn" data-val="E">EE</button>
+
+            <button class="key light" data-val="0">0</button>
+            <button class="key light" data-val=".">.</button>
+            <button class="key fn" data-action="ans">ANS</button>
+            <button class="key op" data-val="+">+</button>
+            <button class="key eq" data-action="eq">=</button>
+
+            <button class="key danger" data-action="ac">AC</button>
+            <button class="key fn" data-action="sto">STO&rarr;</button>
+            <button class="key fn" data-val="M">M</button>
+            <button class="key fn" data-val="^(-1)">x&#8315;&#185;</button>
+            <button class="key fn" data-val="%">%</button>
+          </div>
         </div>
-        <div class="keypad" id="keypad">
-          <button class="key fn" data-val="sin(">sin</button>
-          <button class="key fn" data-val="cos(">cos</button>
-          <button class="key fn" data-val="tan(">tan</button>
-          <button class="key fn" data-val="log(">log</button>
-          <button class="key fn" data-val="ln(">ln</button>
 
-          <button class="key fn" data-val="(">(</button>
-          <button class="key fn" data-val=")">)</button>
-          <button class="key fn" data-val="sqrt(">&radic;</button>
-          <button class="key fn" data-val="^">x^y</button>
-          <button class="key danger" data-action="del">DEL</button>
-
-          <button class="key light" data-val="7">7</button>
-          <button class="key light" data-val="8">8</button>
-          <button class="key light" data-val="9">9</button>
-          <button class="key op" data-val="/">&divide;</button>
-          <button class="key fn" data-val="pi">&pi;</button>
-
-          <button class="key light" data-val="4">4</button>
-          <button class="key light" data-val="5">5</button>
-          <button class="key light" data-val="6">6</button>
-          <button class="key op" data-val="*">&times;</button>
-          <button class="key fn" data-val="e">e</button>
-
-          <button class="key light" data-val="1">1</button>
-          <button class="key light" data-val="2">2</button>
-          <button class="key light" data-val="3">3</button>
-          <button class="key op" data-val="-">&minus;</button>
-          <button class="key fn" data-val="%">%</button>
-
-          <button class="key light" data-val="0">0</button>
-          <button class="key light" data-val=".">.</button>
-          <button class="key danger" data-action="ac">AC</button>
-          <button class="key op" data-val="+">+</button>
-          <button class="key eq" data-action="eq">=</button>
+        <!-- GRAPH PANEL -->
+        <div class="graph-panel" id="graph-panel">
+          <div class="graph-controls">
+            <input type="text" id="graph-expr" value="sin(x)" placeholder="Y1 = f(x), e.g. x^2 - 3">
+          </div>
+          <canvas id="graphCanvas" width="800" height="520"></canvas>
+          <div class="window-grid">
+            <div><label>Xmin</label><input type="number" id="xmin" value="-10"></div>
+            <div><label>Xmax</label><input type="number" id="xmax" value="10"></div>
+            <div><label>Ymin</label><input type="number" id="ymin" value="-10"></div>
+            <div><label>Ymax</label><input type="number" id="ymax" value="10"></div>
+          </div>
+          <div class="graph-actions">
+            <button type="button" id="zoom-std">Zoom Std</button>
+            <button type="button" id="zoom-in">Zoom In</button>
+            <button type="button" id="zoom-out">Zoom Out</button>
+            <button type="button" id="graph-plot">Graph</button>
+          </div>
+          <div class="trace-readout" id="trace-readout">Tap or click the graph to trace a point.</div>
         </div>
       </div>
     </div>
@@ -272,9 +301,9 @@
     <div class="wrap">
       <div class="section-head">
         <div class="kicker">About this tool</div>
-        <h2>Why use a browser calculator instead of a physical one</h2>
-        <p>Graphing calculators like the <strong>TI-84 Plus</strong> are the standard in most algebra, trig and calculus classrooms, but they aren't always within reach — a device left at home, a battery that died, or a school computer with nothing installed. This <strong>TI-84 style calculator</strong> gives you the same keypad layout and the same core functions, without needing the physical hardware.</p>
-        <p>It handles everything from basic arithmetic through <strong>trig functions, logarithms, powers, roots and constants</strong>, with a DEG/RAD toggle for angle-based work and a simple memory store so you can hold onto a value mid-calculation. Nothing is uploaded or saved to a server — every calculation runs directly in your browser.</p>
+        <h2>A calculator that scales from homework to graphing</h2>
+        <p>Graphing calculators like the <strong>TI-84 Plus</strong> are the standard in most algebra, trig and calculus classrooms, but they aren't always within reach. This <strong>TI-84 style calculator</strong> covers both sides of that: a full scientific keypad for everyday calculations, and a dedicated <strong>Graph tab</strong> for plotting functions with adjustable window bounds and zoom, the same way you would on the physical device.</p>
+        <p>The <strong>2nd key</strong> works the way it does on the real calculator — press it once and sin, cos, tan, log and ln swap to their inverse or exponential counterparts, so one key does two jobs instead of cluttering the keypad. <strong>ANS</strong> recalls your last result and <strong>STO&rarr;</strong> lets you save a value into memory for later in the same session.</p>
         <p>This is an independent, fan-built tool inspired by the classic graphing calculator layout for familiarity. It is not made by, affiliated with, or endorsed by Texas Instruments.</p>
       </div>
     </div>
@@ -288,10 +317,10 @@
         <p>Works with mouse, touch, or your keyboard.</p>
       </div>
       <div class="steps-list">
-        <div class="step"><span class="num">1</span><h3>Tap in your expression</h3><p>Use the keypad or your keyboard to build the calculation, including parentheses.</p></div>
-        <div class="step"><span class="num">2</span><h3>Add a function if needed</h3><p>Tap sin, cos, tan, log, ln or &radic; to wrap your current entry in that function.</p></div>
-        <div class="step"><span class="num">3</span><h3>Set DEG or RAD</h3><p>Switch angle mode before working with trig functions so results match what you expect.</p></div>
-        <div class="step"><span class="num">4</span><h3>Press equals</h3><p>Get your result instantly, with the expression kept on screen above it for reference.</p></div>
+        <div class="step"><span class="num">1</span><h3>Pick a tab</h3><p>Use Calculator for arithmetic and scientific functions, or Graph to plot a function.</p></div>
+        <div class="step"><span class="num">2</span><h3>Try 2nd functions</h3><p>Press 2nd, then sin, cos, tan, log or ln to reach their inverse/exponential counterpart.</p></div>
+        <div class="step"><span class="num">3</span><h3>Graph an expression</h3><p>Type a function in terms of x, set your window, then tap Graph. Zoom in/out anytime.</p></div>
+        <div class="step"><span class="num">4</span><h3>Trace the curve</h3><p>Click or tap anywhere on the plotted graph to read the nearest (x, y) coordinate.</p></div>
       </div>
     </div>
   </section>
@@ -305,18 +334,19 @@
       </div>
       <div class="table-scroll">
         <table class="ref-table">
-          <thead><tr><th>Key</th><th>What it does</th></tr></thead>
+          <thead><tr><th>Key</th><th>2nd function</th><th>What it does</th></tr></thead>
           <tbody>
-            <tr><td><code class="key-code">sin / cos / tan</code></td><td>Trig functions, using whichever angle mode (DEG/RAD) is currently selected</td></tr>
-            <tr><td><code class="key-code">log</code></td><td>Base-10 logarithm</td></tr>
-            <tr><td><code class="key-code">ln</code></td><td>Natural logarithm (base e)</td></tr>
-            <tr><td><code class="key-code">&radic;</code></td><td>Square root</td></tr>
-            <tr><td><code class="key-code">x^y</code></td><td>Raise a number to a power</td></tr>
-            <tr><td><code class="key-code">%</code></td><td>Percent, applied to the current entry</td></tr>
-            <tr><td><code class="key-code">&pi; / e</code></td><td>Mathematical constants pi and e</td></tr>
-            <tr><td><code class="key-code">( )</code></td><td>Parentheses for grouping and order of operations</td></tr>
-            <tr><td><code class="key-code">M+ / MR / MC</code></td><td>Add current result to memory, recall it, or clear it</td></tr>
-            <tr><td><code class="key-code">DEL / AC</code></td><td>Delete the last character, or clear everything</td></tr>
+            <tr><td><code class="key-code">sin / cos / tan</code></td><td><code class="key-code">sin&#8315;&#185; / cos&#8315;&#185; / tan&#8315;&#185;</code></td><td>Trig and inverse trig, using the current DEG/RAD mode</td></tr>
+            <tr><td><code class="key-code">log</code></td><td><code class="key-code">10^x</code></td><td>Base-10 logarithm, or its inverse</td></tr>
+            <tr><td><code class="key-code">ln</code></td><td><code class="key-code">e^x</code></td><td>Natural logarithm, or its inverse</td></tr>
+            <tr><td><code class="key-code">x&sup2;</code></td><td><code class="key-code">&radic;</code></td><td>Square, or square root</td></tr>
+            <tr><td><code class="key-code">x^y</code></td><td>&mdash;</td><td>Raise a number to any power</td></tr>
+            <tr><td><code class="key-code">EE</code></td><td>&mdash;</td><td>Scientific notation, e.g. 2 EE 3 = 2000</td></tr>
+            <tr><td><code class="key-code">ANS</code></td><td>&mdash;</td><td>Recalls your last calculated result</td></tr>
+            <tr><td><code class="key-code">STO&rarr; / M</code></td><td>&mdash;</td><td>Store the current result, then recall it with the M key</td></tr>
+            <tr><td><code class="key-code">%</code></td><td>&mdash;</td><td>Percent, applied to the current entry</td></tr>
+            <tr><td><code class="key-code">&pi; / e</code></td><td>&mdash;</td><td>Mathematical constants pi and e</td></tr>
+            <tr><td><code class="key-code">Graph tab</code></td><td>&mdash;</td><td>Plots Y1 = f(x) with adjustable window and zoom in/out/standard</td></tr>
           </tbody>
         </table>
       </div>
@@ -330,11 +360,11 @@
         <h2>Frequently asked questions</h2>
       </div>
       <details class="faq-item" open><summary>Is this TI-84 style calculator free?</summary><p>Yes, it's completely free to use in your browser, with no download, install or sign-up required.</p></details>
-      <details class="faq-item"><summary>Does it work on mobile?</summary><p>Yes, the keypad and screen resize automatically for phones and tablets, so it works the same on mobile browsers as it does on desktop.</p></details>
-      <details class="faq-item"><summary>What functions does the calculator support?</summary><p>Standard arithmetic, parentheses, powers and roots, sin, cos and tan, log and ln, the constants pi and e, a degree/radian toggle, and a memory store, recall and clear.</p></details>
-      <details class="faq-item"><summary>Is this an official Texas Instruments product?</summary><p>No. This is an independent, fan-made scientific calculator with a TI-84 style layout for familiarity. It is not affiliated with, endorsed by, or a product of Texas Instruments.</p></details>
+      <details class="faq-item"><summary>Does it graph functions?</summary><p>Yes. Switch to the Graph tab, type an expression in terms of x, and it plots instantly with adjustable window bounds, zoom in, zoom out, and a standard zoom reset.</p></details>
+      <details class="faq-item"><summary>What functions does the calculator support?</summary><p>Standard arithmetic, parentheses, powers, roots, sin/cos/tan and their inverses, log and ln with their 2nd-function inverses, EE scientific notation, ANS and STO memory, percent, and function graphing with zoom.</p></details>
+      <details class="faq-item"><summary>How does the 2nd key work?</summary><p>Pressing 2nd swaps several keys to their alternate function, just like a physical graphing calculator: sin becomes sin inverse, log becomes 10 to the power of x, and so on. Press 2nd again to switch back.</p></details>
+      <details class="faq-item"><summary>Is this an official Texas Instruments product?</summary><p>No. This is an independent, fan-made calculator with a TI-84 style layout for familiarity. It is not affiliated with, endorsed by, or a product of Texas Instruments.</p></details>
       <details class="faq-item"><summary>Can I use this for exams?</summary><p>Check with your instructor or test administrator first. Many exams require a physical calculator, and an online tool like this is best suited for homework, practice and everyday calculations.</p></details>
-      <details class="faq-item"><summary>Does it save my calculation history?</summary><p>The calculator keeps a short history of your recent calculations in the current browser tab. Closing or refreshing the page clears it, since nothing is stored on a server.</p></details>
     </div>
   </section>
 
@@ -345,7 +375,7 @@
     <div class="footer-grid">
       <div>
         <h4>TI-84 Style Calculator</h4>
-        <p>A free, independent scientific calculator with a familiar graphing-calculator keypad. Not affiliated with or endorsed by Texas Instruments.</p>
+        <p>A free, independent scientific and graphing calculator with a familiar keypad. Not affiliated with or endorsed by Texas Instruments.</p>
       </div>
       <div>
         <h4>Tool</h4>
@@ -363,88 +393,55 @@
 <script>
 document.getElementById('year').textContent = new Date().getFullYear();
 
-// ---------------- Expression state ----------------
-let expr = '';
+// ================= Shared expression evaluator =================
+// Supports + - * / ^ ( ) sin cos tan asin acos atan log ln sqrt pi e % E(scientific) x(graph var) m(memory) ans
 let angleMode = 'deg';
-let memory = 0;
-let lastHistory = '';
+let memoryVal = 0;
+let ansVal = 0;
 
-const exprEl = document.getElementById('screen-expr');
-const resultEl = document.getElementById('screen-result');
-const historyEl = document.getElementById('screen-history');
-const angleLabel = document.getElementById('angle-label');
-
-function render(){
-  exprEl.textContent = expr || '\u00a0';
-}
-
-// ---------------- Safe expression evaluator ----------------
-// Tokenizer + recursive-descent parser supporting: + - * / ^ ( ) sin cos tan log ln sqrt pi e %
-function evaluate(input){
+function evaluate(input, opts){
+  opts = opts || {};
+  const xVal = opts.xVal;
   let pos = 0;
   const src = input.replace(/\s+/g,'');
 
   function peek(){ return src[pos]; }
-  function consume(ch){
-    if(src[pos]!==ch) throw new Error('Expected ' + ch);
-    pos++;
-  }
+  function consume(ch){ if(src[pos]!==ch) throw new Error('Expected ' + ch); pos++; }
   function isDigit(c){ return c>='0' && c<='9'; }
 
   function parseExpression(){
     let value = parseTerm();
-    while(peek()==='+' || peek()==='-'){
-      const op = src[pos++];
-      const rhs = parseTerm();
-      value = op==='+' ? value+rhs : value-rhs;
-    }
+    while(peek()==='+' || peek()==='-'){ const op = src[pos++]; const rhs = parseTerm(); value = op==='+'?value+rhs:value-rhs; }
     return value;
   }
-
   function parseTerm(){
     let value = parseFactor();
     while(peek()==='*' || peek()==='/' || peek()==='%'){
-      const op = src[pos++];
-      const rhs = parseFactor();
-      if(op==='*') value = value*rhs;
-      else if(op==='/') value = value/rhs;
-      else value = value % rhs;
+      const op = src[pos++]; const rhs = parseFactor();
+      if(op==='*') value=value*rhs; else if(op==='/') value=value/rhs; else value=value%rhs;
     }
     return value;
   }
-
   function parseFactor(){
     let value = parseUnary();
-    while(peek()==='^'){
-      pos++;
-      const rhs = parseUnary();
-      value = Math.pow(value, rhs);
-    }
+    while(peek()==='^'){ pos++; const rhs = parseUnary(); value = Math.pow(value, rhs); }
     return value;
   }
-
   function parseUnary(){
     if(peek()==='-'){ pos++; return -parseUnary(); }
     if(peek()==='+'){ pos++; return parseUnary(); }
     return parsePrimary();
   }
-
-  function parseFunctionArg(){
-    consume('(');
-    const value = parseExpression();
-    consume(')');
-    return value;
-  }
-
+  function parseFunctionArg(){ consume('('); const value = parseExpression(); consume(')'); return value; }
   function toRad(v){ return angleMode==='deg' ? v*Math.PI/180 : v; }
+  function fromRad(v){ return angleMode==='deg' ? v*180/Math.PI : v; }
 
   function parsePrimary(){
-    if(peek()==='('){
-      pos++;
-      const value = parseExpression();
-      consume(')');
-      return value;
-    }
+    if(peek()==='('){ pos++; const value = parseExpression(); consume(')'); return value; }
+
+    if(src.startsWith('asin', pos)){ pos+=4; return fromRad(Math.asin(parseFunctionArg())); }
+    if(src.startsWith('acos', pos)){ pos+=4; return fromRad(Math.acos(parseFunctionArg())); }
+    if(src.startsWith('atan', pos)){ pos+=4; return fromRad(Math.atan(parseFunctionArg())); }
     if(src.startsWith('sin', pos)){ pos+=3; return Math.sin(toRad(parseFunctionArg())); }
     if(src.startsWith('cos', pos)){ pos+=3; return Math.cos(toRad(parseFunctionArg())); }
     if(src.startsWith('tan', pos)){ pos+=3; return Math.tan(toRad(parseFunctionArg())); }
@@ -452,14 +449,31 @@ function evaluate(input){
     if(src.startsWith('log', pos)){ pos+=3; return Math.log10(parseFunctionArg()); }
     if(src.startsWith('ln', pos)){ pos+=2; return Math.log(parseFunctionArg()); }
     if(src.startsWith('pi', pos)){ pos+=2; return Math.PI; }
-    if(peek()==='e' && !isDigit(src[pos+1])){ pos+=1; return Math.E; }
+    if(src.startsWith('ans', pos)){ pos+=3; return ansVal; }
+
+    if(peek()==='e' && !isDigit(src[pos+1])){
+      // could be Euler's number OR e^ prefix (2nd function of ln)
+      if(src[pos+1]==='^'){ pos+=2; const exp = parseUnary(); return Math.exp(exp); }
+      pos+=1; return Math.E;
+    }
+    if(peek()==='m' || peek()==='M'){ pos++; return memoryVal; }
+    if(peek()==='x' && xVal!==undefined){ pos++; return xVal; }
 
     let start = pos;
     if(peek()==='.') { pos++; }
     while(isDigit(peek())) pos++;
     if(peek()==='.'){ pos++; while(isDigit(peek())) pos++; }
     if(pos===start) throw new Error('Unexpected token: ' + peek());
-    return parseFloat(src.slice(start,pos));
+    let mantissa = parseFloat(src.slice(start,pos));
+    if(peek()==='E'){
+      pos++;
+      const expStart = pos;
+      if(peek()==='-' || peek()==='+'){ pos++; }
+      while(isDigit(peek())) pos++;
+      const exp = parseInt(src.slice(expStart,pos) || '0', 10);
+      return mantissa * Math.pow(10, exp);
+    }
+    return mantissa;
   }
 
   const result = parseExpression();
@@ -474,79 +488,227 @@ function formatResult(n){
   return rounded.toLocaleString('en-US', {maximumFractionDigits:10});
 }
 
+// ================= Calculator panel =================
+let expr = '';
+let secondMode = false;
+
+const exprEl = document.getElementById('screen-expr');
+const resultEl = document.getElementById('screen-result');
+const historyEl = document.getElementById('screen-history');
+const angleLabel = document.getElementById('angle-label');
+const secondBtn = document.getElementById('second-btn');
+
+function renderExpr(){ exprEl.textContent = expr || '\u00a0'; }
+
+function updateSecondLabels(){
+  document.querySelectorAll('#keypad .key[data-primary]').forEach(btn=>{
+    btn.textContent = secondMode ? labelFor(btn.dataset.second) : labelFor(btn.dataset.primary, btn.id);
+  });
+}
+function labelFor(token, id){
+  const map = {
+    'sin(':'sin','cos(':'cos','tan(':'tan','asin(':'sin\u207B\u00B9','acos(':'cos\u207B\u00B9','atan(':'tan\u207B\u00B9',
+    'log(':'log','10^':'10^x','ln(':'ln','e^':'e^x','^2':'x\u00B2','sqrt(':'\u221A'
+  };
+  return map[token] || token;
+}
+
 function pressKey(el){
   const action = el.dataset.action;
-  const val = el.dataset.val;
 
-  if(action==='ac'){
-    expr = '';
-    resultEl.textContent = '0';
-    historyEl.textContent = '\u00a0';
-    render();
-    return;
-  }
-  if(action==='del'){
-    expr = expr.slice(0,-1);
-    render();
-    return;
-  }
+  if(action==='ac'){ expr=''; resultEl.textContent='0'; historyEl.textContent='\u00a0'; renderExpr(); return; }
+  if(action==='del'){ expr = expr.slice(0,-1); renderExpr(); return; }
+  if(action==='sto'){ memoryVal = parseFloat(resultEl.textContent.replace(/,/g,''))||0; return; }
+  if(action==='ans'){ expr += 'ans'; renderExpr(); return; }
   if(action==='eq'){
     if(!expr) return;
     try{
-      const value = evaluate(expr);
+      const value = evaluate(expr, {});
       const formatted = formatResult(value);
       historyEl.textContent = expr + ' =';
       resultEl.textContent = formatted;
+      ansVal = value;
       expr = String(formatted).replace(/,/g,'');
-    }catch(err){
-      resultEl.textContent = 'Error';
-    }
-    render();
+    }catch(err){ resultEl.textContent = 'Error'; }
+    renderExpr();
     return;
   }
+
+  let val = el.dataset.val;
+  if(el.dataset.primary){ val = secondMode ? el.dataset.second : el.dataset.primary; }
   expr += val;
-  render();
+  renderExpr();
 }
 
 document.getElementById('keypad').addEventListener('click', (e)=>{
   const btn = e.target.closest('.key');
   if(!btn) return;
   pressKey(btn);
+  if(btn.dataset.primary && secondMode){ secondMode=false; secondBtn.classList.remove('second-active'); updateSecondLabels(); }
 });
 
-// ---------------- Mode buttons ----------------
+secondBtn.addEventListener('click', ()=>{
+  secondMode = !secondMode;
+  secondBtn.classList.toggle('second-active', secondMode);
+  updateSecondLabels();
+});
+
 const degBtn = document.getElementById('deg-btn');
 const radBtn = document.getElementById('rad-btn');
-degBtn.addEventListener('click', ()=>{
-  angleMode='deg'; degBtn.classList.add('active'); radBtn.classList.remove('active'); angleLabel.textContent='DEG';
-});
-radBtn.addEventListener('click', ()=>{
-  angleMode='rad'; radBtn.classList.add('active'); degBtn.classList.remove('active'); angleLabel.textContent='RAD';
-});
+degBtn.addEventListener('click', ()=>{ angleMode='deg'; degBtn.classList.add('active'); radBtn.classList.remove('active'); angleLabel.textContent='DEG'; });
+radBtn.addEventListener('click', ()=>{ angleMode='rad'; radBtn.classList.add('active'); degBtn.classList.remove('active'); angleLabel.textContent='RAD'; });
 
-document.getElementById('mplus-btn').addEventListener('click', ()=>{
-  const current = parseFloat(resultEl.textContent.replace(/,/g,''));
-  if(!isNaN(current)) memory += current;
-});
-document.getElementById('mr-btn').addEventListener('click', ()=>{
-  expr += String(memory);
-  render();
-});
-document.getElementById('mc-btn').addEventListener('click', ()=>{
-  memory = 0;
-});
-
-// ---------------- Keyboard support ----------------
 window.addEventListener('keydown', (e)=>{
   if(document.activeElement && ['INPUT','SELECT','TEXTAREA'].includes(document.activeElement.tagName)) return;
+  if(!document.getElementById('calc-panel').classList.contains('active')) return;
   const key = e.key;
-  if(/[0-9.+\-*/()^%]/.test(key)){ expr += key; render(); e.preventDefault(); return; }
+  if(/[0-9.+\-*/()^%]/.test(key)){ expr += key; renderExpr(); e.preventDefault(); return; }
   if(key==='Enter' || key==='='){ pressKey({dataset:{action:'eq'}}); e.preventDefault(); return; }
   if(key==='Backspace'){ pressKey({dataset:{action:'del'}}); e.preventDefault(); return; }
   if(key==='Escape'){ pressKey({dataset:{action:'ac'}}); e.preventDefault(); return; }
 });
 
-render();
+renderExpr();
+
+// ================= Tabs =================
+const tabCalc = document.getElementById('tab-calc');
+const tabGraph = document.getElementById('tab-graph');
+const calcPanel = document.getElementById('calc-panel');
+const graphPanel = document.getElementById('graph-panel');
+
+tabCalc.addEventListener('click', ()=>{
+  tabCalc.classList.add('active'); tabGraph.classList.remove('active');
+  calcPanel.classList.add('active'); graphPanel.classList.remove('active');
+});
+tabGraph.addEventListener('click', ()=>{
+  tabGraph.classList.add('active'); tabCalc.classList.remove('active');
+  graphPanel.classList.add('active'); calcPanel.classList.remove('active');
+  drawGraph();
+});
+
+// ================= Graphing =================
+const canvas = document.getElementById('graphCanvas');
+const ctx = canvas.getContext('2d');
+const graphExprInput = document.getElementById('graph-expr');
+const xminInput = document.getElementById('xmin');
+const xmaxInput = document.getElementById('xmax');
+const yminInput = document.getElementById('ymin');
+const ymaxInput = document.getElementById('ymax');
+const traceReadout = document.getElementById('trace-readout');
+
+function resizeCanvas(){
+  const rect = canvas.getBoundingClientRect();
+  canvas.width = rect.width * 2;
+  canvas.height = rect.height * 2;
+}
+
+function toPixelX(x, xmin, xmax){ return ((x - xmin) / (xmax - xmin)) * canvas.width; }
+function toPixelY(y, ymin, ymax){ return canvas.height - ((y - ymin) / (ymax - ymin)) * canvas.height; }
+function toMathX(px, xmin, xmax){ return xmin + (px / canvas.width) * (xmax - xmin); }
+function toMathY(py, ymin, ymax){ return ymin + ((canvas.height - py) / canvas.height) * (ymax - ymin); }
+
+function drawGraph(){
+  resizeCanvas();
+  const xmin = parseFloat(xminInput.value), xmax = parseFloat(xmaxInput.value);
+  const ymin = parseFloat(yminInput.value), ymax = parseFloat(ymaxInput.value);
+
+  ctx.fillStyle = getComputedStyle(document.documentElement).getPropertyValue('--screen').trim();
+  ctx.fillRect(0,0,canvas.width, canvas.height);
+
+  // grid
+  ctx.strokeStyle = 'rgba(29,41,23,0.15)';
+  ctx.lineWidth = 1;
+  const stepX = niceStep(xmax-xmin);
+  const stepY = niceStep(ymax-ymin);
+  for(let gx = Math.ceil(xmin/stepX)*stepX; gx<=xmax; gx+=stepX){
+    const px = toPixelX(gx,xmin,xmax);
+    ctx.beginPath(); ctx.moveTo(px,0); ctx.lineTo(px,canvas.height); ctx.stroke();
+  }
+  for(let gy = Math.ceil(ymin/stepY)*stepY; gy<=ymax; gy+=stepY){
+    const py = toPixelY(gy,ymin,ymax);
+    ctx.beginPath(); ctx.moveTo(0,py); ctx.lineTo(canvas.width,py); ctx.stroke();
+  }
+
+  // axes
+  ctx.strokeStyle = 'rgba(29,41,23,0.6)';
+  ctx.lineWidth = 2;
+  if(ymin<=0 && ymax>=0){ const py = toPixelY(0,ymin,ymax); ctx.beginPath(); ctx.moveTo(0,py); ctx.lineTo(canvas.width,py); ctx.stroke(); }
+  if(xmin<=0 && xmax>=0){ const px = toPixelX(0,xmin,xmax); ctx.beginPath(); ctx.moveTo(px,0); ctx.lineTo(px,canvas.height); ctx.stroke(); }
+
+  // function curve
+  ctx.strokeStyle = '#c67a3a';
+  ctx.lineWidth = 3;
+  ctx.beginPath();
+  let started = false;
+  const exprStr = graphExprInput.value || 'x';
+  const samples = canvas.width;
+  for(let i=0;i<=samples;i++){
+    const xMath = xmin + (i/samples)*(xmax-xmin);
+    let yMath;
+    try{ yMath = evaluate(exprStr, {xVal:xMath}); }catch(e){ yMath = NaN; }
+    if(!isFinite(yMath) || isNaN(yMath) || yMath<ymin-((ymax-ymin)*3) || yMath>ymax+((ymax-ymin)*3)){
+      started = false;
+      continue;
+    }
+    const px = (i/samples)*canvas.width;
+    const py = toPixelY(yMath, ymin, ymax);
+    if(!started){ ctx.moveTo(px,py); started=true; } else { ctx.lineTo(px,py); }
+  }
+  ctx.stroke();
+}
+
+function niceStep(range){
+  const raw = range/10;
+  const mag = Math.pow(10, Math.floor(Math.log10(raw)));
+  const norm = raw/mag;
+  let step;
+  if(norm<1.5) step=1; else if(norm<3) step=2; else if(norm<7) step=5; else step=10;
+  return step*mag;
+}
+
+document.getElementById('graph-plot').addEventListener('click', drawGraph);
+document.getElementById('zoom-std').addEventListener('click', ()=>{
+  xminInput.value=-10; xmaxInput.value=10; yminInput.value=-10; ymaxInput.value=10; drawGraph();
+});
+document.getElementById('zoom-in').addEventListener('click', ()=>{
+  scaleWindow(0.5); drawGraph();
+});
+document.getElementById('zoom-out').addEventListener('click', ()=>{
+  scaleWindow(2); drawGraph();
+});
+function scaleWindow(factor){
+  const xmin=parseFloat(xminInput.value), xmax=parseFloat(xmaxInput.value);
+  const ymin=parseFloat(yminInput.value), ymax=parseFloat(ymaxInput.value);
+  const cx=(xmin+xmax)/2, cy=(ymin+ymax)/2;
+  const hw=(xmax-xmin)/2*factor, hh=(ymax-ymin)/2*factor;
+  xminInput.value=(cx-hw).toFixed(2); xmaxInput.value=(cx+hw).toFixed(2);
+  yminInput.value=(cy-hh).toFixed(2); ymaxInput.value=(cy+hh).toFixed(2);
+}
+
+[xminInput,xmaxInput,yminInput,ymaxInput,graphExprInput].forEach(el=>{
+  el.addEventListener('change', drawGraph);
+});
+
+function traceAt(clientX, clientY){
+  const rect = canvas.getBoundingClientRect();
+  const px = (clientX - rect.left) / rect.width * canvas.width;
+  const xmin=parseFloat(xminInput.value), xmax=parseFloat(xmaxInput.value);
+  const ymin=parseFloat(yminInput.value), ymax=parseFloat(ymaxInput.value);
+  const xMath = toMathX(px, xmin, xmax);
+  let yMath;
+  try{ yMath = evaluate(graphExprInput.value||'x', {xVal:xMath}); }catch(e){ yMath = NaN; }
+  if(isNaN(yMath) || !isFinite(yMath)){
+    traceReadout.textContent = `x = ${xMath.toFixed(3)}, y = undefined`;
+  } else {
+    traceReadout.textContent = `x = ${xMath.toFixed(3)}, y = ${yMath.toFixed(3)}`;
+  }
+}
+canvas.addEventListener('click', (e)=>traceAt(e.clientX, e.clientY));
+canvas.addEventListener('touchstart', (e)=>{
+  if(e.touches[0]) traceAt(e.touches[0].clientX, e.touches[0].clientY);
+}, {passive:true});
+
+window.addEventListener('resize', ()=>{ if(graphPanel.classList.contains('active')) drawGraph(); });
 </script>
 
 </body>
