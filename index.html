@@ -206,10 +206,97 @@
     </div>
   </section>
 
-  
-<iframe src="https://ti84calc.com/ti84calc" width="600px" height="800px" frameborder="0" allow="fullscreen"></iframe>
+  <section class="calc-wrap" id="calculator">
+    <div class="wrap">
+      <div class="calc-device">
+        <div class="calc-brandbar"><span>SCI-GRAPH-CALC</span><span id="angle-label">DEG</span></div>
 
-  
+        <div class="tabs">
+          <button class="tab-btn active" id="tab-calc" type="button">Calculator</button>
+          <button class="tab-btn" id="tab-graph" type="button">Graph</button>
+        </div>
+
+        <!-- CALCULATOR PANEL -->
+        <div class="calc-panel active" id="calc-panel">
+          <div class="screen">
+            <div class="screen-history" id="screen-history">&nbsp;</div>
+            <div class="screen-expr" id="screen-expr">&nbsp;</div>
+            <div class="screen-result" id="screen-result">0</div>
+          </div>
+          <div class="mode-row">
+            <button class="mode-btn active" id="deg-btn" type="button">DEG</button>
+            <button class="mode-btn" id="rad-btn" type="button">RAD</button>
+            <button class="mode-btn" id="second-btn" type="button">2nd</button>
+          </div>
+          <div class="keypad" id="keypad">
+            <button class="key fn" data-primary="sin(" data-second="asin(" id="k-sin">sin</button>
+            <button class="key fn" data-primary="cos(" data-second="acos(" id="k-cos">cos</button>
+            <button class="key fn" data-primary="tan(" data-second="atan(" id="k-tan">tan</button>
+            <button class="key fn" data-primary="log(" data-second="10^" id="k-log">log</button>
+            <button class="key fn" data-primary="ln(" data-second="e^" id="k-ln">ln</button>
+
+            <button class="key fn" data-val="(">(</button>
+            <button class="key fn" data-val=")">)</button>
+            <button class="key fn" data-primary="^2" data-second="sqrt(" id="k-sq">x&sup2;</button>
+            <button class="key fn" data-val="^">x^y</button>
+            <button class="key danger" data-action="del">DEL</button>
+
+            <button class="key light" data-val="7">7</button>
+            <button class="key light" data-val="8">8</button>
+            <button class="key light" data-val="9">9</button>
+            <button class="key op" data-val="/">&divide;</button>
+            <button class="key fn" data-val="pi">&pi;</button>
+
+            <button class="key light" data-val="4">4</button>
+            <button class="key light" data-val="5">5</button>
+            <button class="key light" data-val="6">6</button>
+            <button class="key op" data-val="*">&times;</button>
+            <button class="key fn" data-val="e">e</button>
+
+            <button class="key light" data-val="1">1</button>
+            <button class="key light" data-val="2">2</button>
+            <button class="key light" data-val="3">3</button>
+            <button class="key op" data-val="-">&minus;</button>
+            <button class="key fn" data-val="E">EE</button>
+
+            <button class="key light" data-val="0">0</button>
+            <button class="key light" data-val=".">.</button>
+            <button class="key fn" data-action="ans">ANS</button>
+            <button class="key op" data-val="+">+</button>
+            <button class="key eq" data-action="eq">=</button>
+
+            <button class="key danger" data-action="ac">AC</button>
+            <button class="key fn" data-action="sto">STO&rarr;</button>
+            <button class="key fn" data-val="M">M</button>
+            <button class="key fn" data-val="^(-1)">x&#8315;&#185;</button>
+            <button class="key fn" data-val="%">%</button>
+          </div>
+        </div>
+
+        <!-- GRAPH PANEL -->
+        <div class="graph-panel" id="graph-panel">
+          <div class="graph-controls">
+            <input type="text" id="graph-expr" value="sin(x)" placeholder="Y1 = f(x), e.g. x^2 - 3">
+          </div>
+          <canvas id="graphCanvas" width="800" height="520"></canvas>
+          <div class="window-grid">
+            <div><label>Xmin</label><input type="number" id="xmin" value="-10"></div>
+            <div><label>Xmax</label><input type="number" id="xmax" value="10"></div>
+            <div><label>Ymin</label><input type="number" id="ymin" value="-10"></div>
+            <div><label>Ymax</label><input type="number" id="ymax" value="10"></div>
+          </div>
+          <div class="graph-actions">
+            <button type="button" id="zoom-std">Zoom Std</button>
+            <button type="button" id="zoom-in">Zoom In</button>
+            <button type="button" id="zoom-out">Zoom Out</button>
+            <button type="button" id="graph-plot">Graph</button>
+          </div>
+          <div class="trace-readout" id="trace-readout">Tap or click the graph to trace a point.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <section class="about" id="about">
     <div class="wrap">
       <div class="section-head">
